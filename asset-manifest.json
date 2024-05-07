@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/apiEndPointTask/static/css/main.b4acda07.css",
+    "main.js": "/apiEndPointTask/static/js/main.9a4d5d58.js",
+    "static/js/453.b2d3b7c5.chunk.js": "/apiEndPointTask/static/js/453.b2d3b7c5.chunk.js",
+    "index.html": "/apiEndPointTask/index.html",
+    "main.b4acda07.css.map": "/apiEndPointTask/static/css/main.b4acda07.css.map",
+    "main.9a4d5d58.js.map": "/apiEndPointTask/static/js/main.9a4d5d58.js.map",
+    "453.b2d3b7c5.chunk.js.map": "/apiEndPointTask/static/js/453.b2d3b7c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4acda07.css",
+    "static/js/main.9a4d5d58.js"
+  ]
+}
