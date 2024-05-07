@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Main container */
+.main-container {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* First section */
+.api-section {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Input box and button */ 
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input-container input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px 0px 10px 10px;
+
+}
+
+.input-container button {
+  background-color: #18A0FB;
+  color: white;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.content-display-sections{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+/* Second section */
+.left-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 45%;
+  margin-top: 10px;
+}
+
+/* Left side containing JSON data */
+
+
+/* Right side containing buttons */
+.button-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.right-section .button-section button {
+  margin-bottom: 10px;
+  background-color: #18A0FB;
   color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+/* Textarea for displaying rendered content */
+.right-section {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 600px;
+  margin-top: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left-section textarea {
+  overflow: auto;
+  height: 500px;
+  overflow: auto;
+
 }
+
+.left-section textarea:focus{
+  outline: none;
+}
+
+.rendered-content{
+  border:1px solid grey;
+  overflow: auto;
+  height: 500px;
+
+}
+
+.alert {
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #f44336; /* Red background */
+  color: white; /* White text */
+  border-radius: 4px;
+  z-index: 20;
+  position: absolute;
+  margin:auto
+}
+
+.success {
+  background-color: #4caf50; /* Green background */
+}
+
